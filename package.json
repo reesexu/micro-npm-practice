@@ -1,0 +1,14 @@
+{
+  "name": "micro-npm-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "is-sorted.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "xuwenchao",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  }
+}
