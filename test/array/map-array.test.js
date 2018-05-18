@@ -1,5 +1,5 @@
 const should = require('should')
-const mapArray = require('../packages/map-array')
+const mapArray = require('../../packages/array/map-array')
 describe('map-array', () => {
   it('should return an array with the obj key & value', () => {
     const obj = {

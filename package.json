@@ -4,7 +4,7 @@
   "description": "",
   "main": "is-sorted.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha --recursive"
   },
   "author": "xuwenchao",
   "license": "ISC",

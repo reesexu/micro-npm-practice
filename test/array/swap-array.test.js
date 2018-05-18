@@ -1,5 +1,5 @@
 const should = require('should')
-const swapArray = require('../packages/swap-array')
+const swapArray = require('../../packages/array/swap-array')
 const array = ['a', 'b', 'c']
 describe('swap-array', () => {
   it ('swap two array-items by its index', () => {

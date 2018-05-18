@@ -1,5 +1,5 @@
 const should = require('should')
-const inArray = require('../packages/in-array')
+const inArray = require('../../packages/array/in-array')
 describe('in-array', () => {
   it('it should return true', () => {
     inArray(['a', 'b', 'c'], 'a').should.equal(true)

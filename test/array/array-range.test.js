@@ -1,5 +1,5 @@
 const should = require('should')
-const arrayRange = require('../packages/array-range')
+const arrayRange = require('../../packages/array/array-range')
 describe('array-range', () => {
   it ('it should return a new array in the interval', () => {
     arrayRange(0, 4).should.eql([0, 1, 2, 3])

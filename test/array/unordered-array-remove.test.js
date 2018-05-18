@@ -1,5 +1,5 @@
 const should = require('should')
-const unorderedArrayRemove = require('../packages/unordered-array-remove')
+const unorderedArrayRemove = require('../../packages/array/unordered-array-remove')
 describe('unordered-array-remove', () => {
   it ('remove the selected item from array', () => {
     let list = [0, 1, 2]

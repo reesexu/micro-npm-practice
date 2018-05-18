@@ -1,5 +1,5 @@
 const assert = require('assert')
-const isSorted = require('../packages/is-sorted')
+const isSorted = require('../../packages/array/is-sorted')
 const testCases = [
   {
     array: [],

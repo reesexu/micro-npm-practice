@@ -1,5 +1,5 @@
 const should = require('should')
-const arrayLast = require('../packages/array-last')
+const arrayLast = require('../../packages/array/array-last')
 const testArrar = ['a', 'b', 'c', 'd', 'e', 'f']
 describe('array-last', () => {
   it ('should throw', () => {

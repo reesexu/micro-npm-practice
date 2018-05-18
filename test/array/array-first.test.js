@@ -1,6 +1,6 @@
 const assert = require('assert')
 const should = require('should')
-const arrayFirst = require('../packages/array-first')
+const arrayFirst = require('../../packages/array/array-first')
 describe('arrat-first', () => {
   it ('should throw error', () => {
     (() => arrayFirst('test')).should.throw('array-first expects an array as the first argument')

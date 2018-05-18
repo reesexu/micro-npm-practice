@@ -1,4 +1,4 @@
-const fatten = require('../packages/arr-flatten')
+const fatten = require('../../packages/array/arr-flatten')
 const should = require('should')
 describe('arr-flatten', () => {
   it ('should flatten nested array', () => {

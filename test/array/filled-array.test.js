@@ -1,5 +1,5 @@
 const should = require('should')
-const filledArray = require('../packages/filled-array')
+const filledArray = require('../../packages/array/filled-array')
 const testCases = [
   {
     arg1: 'a',

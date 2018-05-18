@@ -1,4 +1,4 @@
-const dedupe = require('../packages/dedupe')
+const dedupe = require('../../packages/array/dedupe')
 const should = require('should')
 describe('dedupe', () => {
   it ('sholud remove duplicates', () => {
